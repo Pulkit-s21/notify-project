@@ -6,8 +6,6 @@ const newMessages = document.querySelectorAll(".new");
 const notifnumber = document.querySelector(".number");
 const dots = document.querySelectorAll("i");
 
-console.log(dots);
-
 btn.addEventListener("click", () => {
     newMessages.forEach(newMessage => {
         newMessage.classList.remove("bg-secondary-400");
